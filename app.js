@@ -1,6 +1,9 @@
 const stringLength = (string) => {
-    return string.length;
+    if (1 < string.length < 11) {
+        return string.length;
+    }
 }
+
 const reverseString = (string) => {
     return string.split('').reverse().join('');
 }
