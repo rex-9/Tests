@@ -28,7 +28,7 @@ const reverseString = (string) => {
 }
 
 const capitalize = (string) => {
-    return string.toUpperCase();
+    return string[0].toUpperCase() + string.slice(1);
 }
 
 module.exports = { Calculator, stringLength, reverseString, capitalize }

@@ -36,5 +36,5 @@ test('reverse string', () => {
 })
 
 test('capitalize', () => {
-    expect(capitalize('happy')).toMatch('HAPPY');
+    expect(capitalize('happy')).toMatch('Happy');
 })
